@@ -1,0 +1,136 @@
+/* Basis-Stil für die gesamte Seite */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #c2f3f4;
+    line-height: 1.6;
+    color: #222;
+  }
+  
+  header {
+    background-color: #112B4A;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0.5em;
+  }
+  
+  .section {
+    padding: 2em;
+    text-align: center;
+  }
+  
+  .hero img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+  }
+  
+  .card {
+    background: white;
+    padding: 1em;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .circle-icons {
+    margin-top: 1em;
+  }
+  
+  .circle-icons button {
+    background-color: #112B4A;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 0 0.5em;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .form-group {
+    margin: 1em 0;
+  }
+  
+  input,
+  textarea {
+    padding: 0.5em;
+    width: 90%;
+    max-width: 400px;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    background-color: #112B4A;
+    color: white;
+    padding: 0.7em 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0d1f34;
+  }
+  
+  footer {
+    background-color: #112B4A;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  
+    .card-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    input,
+    textarea {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero img {
+      width: 100px;
+    }
+  
+    .circle-icons button {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  

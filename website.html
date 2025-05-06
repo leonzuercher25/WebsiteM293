@@ -1,11 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leon Zürcher – Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="website.css" rel="stylesheet">
 </head>
 <body>
-    hallo
+  <header>
+    <a href="#ueber-mich">Über Mich</a>
+    <a href="#faehigkeiten">Fähigkeiten</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#kontakt">Kontakt</a>
+  </header>
+
+  <section class="section hero" id="ueber-mich">
+    <img src="https://via.placeholder.com/150" alt="Leon Simen Zürcher">
+    <h2>Leon Simen Zürcher</h2>
+    <h3>Bio</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis nec justo facilisis cursus.</p>
+    <div class="circle-icons">
+      <button>F</button>
+      <button>P</button>
+      <button>K</button>
+    </div>
+  </section>
+
+  <section class="section" id="faehigkeiten">
+    <h2>Fähigkeiten</h2>
+    <div class="card-container">
+      <div class="card">Vestibulum ante ipsum primis in faucibus...</div>
+      <div class="card">Curabitur venenatis nisl nec libero vestibulum...</div>
+      <div class="card">Fusce elementum, eros ac tincidunt...</div>
+    </div>
+  </section>
+
+  <section class="section" id="portfolio">
+    <h2>Meine Projekte</h2>
+    <div class="card-container">
+      <div class="card">Sed ut perspiciatis unde omnis iste natus...</div>
+      <div class="card">Nemo enim ipsam voluptatem quia voluptas...</div>
+      <div class="card">Duis aute irure dolor in reprehenderit...</div>
+    </div>
+  </section>
+
+  <section class="section" id="kontakt">
+    <h2>Kontakt</h2>
+    <p>Leon Simen Zürcher</p>
+    <p>Tel: +41 79 921 75 26</p>
+    <p>E-Mail: leon.zuercher@edu.gbssg.ch</p>
+    <div>
+      <p>Soziale Netzwerke:</p>
+      <p>
+        <a href="#">📷 Instagram</a> |
+        <a href="#">📘 Facebook</a> |
+        <a href="#">💼 LinkedIn</a>
+      </p>
+    </div>
+    <form>
+      <div class="form-group">
+        <input type="text" placeholder="Vorname">
+        <input type="text" placeholder="Nachname">
+      </div>
+      <div class="form-group">
+        <input type="email" placeholder="E-Mail">
+      </div>
+      <div class="form-group">
+        <textarea placeholder="Deine Nachricht"></textarea>
+      </div>
+      <button type="submit">Nachricht Senden</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Leon Simen Zürcher
+  </footer>
 </body>
 </html>
