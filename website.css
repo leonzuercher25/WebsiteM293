@@ -40,17 +40,18 @@ header a {
 }
 
 
-
-
 /* 
 Über mich */
 .hero img {
   width: 150px;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 .circle-icons {
   margin-top: 1em;
+}
+.circle-icons button a {
+  color: #F1FAEE;
 }
 
 .circle-icons button {
@@ -64,7 +65,6 @@ header a {
   font-weight: bold;
   cursor: pointer;
 }
-
 
 
 
@@ -90,12 +90,6 @@ header a {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
 }
-
-.card:hover {
-  transform: scale(1.05);
-}
-
-
 
 /* Kontakt */
 .contact-info, .social-media, form {
@@ -176,7 +170,7 @@ button[type="submit"]:hover {
 /* Footer */
 footer {
   background-color: #112B4A;
-  color: white;
+  color: #F1FAEE;
   text-align: center;
   padding: 1em;
   margin-top: 2em;
