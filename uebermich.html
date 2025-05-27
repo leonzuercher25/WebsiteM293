@@ -3,33 +3,36 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Über Mich Leon Zürcher</title>
-  <link href="website.css" rel="stylesheet">
+  <title>Über Mich</title>
+  <link rel="stylesheet" href="website.css" />
 </head>
 <body>
-  <header>
-    <a href="uebermich.html">Über Mich</a>
-    <a href="faehigkeiten.html">Fähigkeiten</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="kontakt.html">Kontakt</a>
+  <header class="site-header">
+    <nav class="site-nav">
+      <a href="uebermich.html">Über Mich</a>
+      <a href="faehigkeiten.html">Fähigkeiten</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
   </header>
 
-  <section class="section hero column-layout">
-    <img src="https://th.bing.com/th/id/OIP.QGyOycR0GI6n-AEd0h0DhwHaHa?rs=1&pid=ImgDetMain" alt="Bild von Leon"/>
-    <h2>Leon Simen Zürcher</h2>
-    <h3>Bio</h3>
-    <div class="card">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis nec justo facilisis cursus.
-      dskjflskdfjsfasdflasjfl
-    </div>
-    <div class="circle-icons">
-      <button><a href="faehigkeiten.html">Fähigkeiten</a></button>
-      <button><a href="portfolio.html">Portfolio</a></button>
-      <button><a href="kontakt.html">Kontakt</a></button>
+  <section class="section hero-container">
+    <img src="leon.jpg" alt="Leon Zürcher" class="hero-image" />
+    <div class="hero-text">
+      <h2>Leon Simen Zürcher</h2>
+      <h3>Bio</h3>
+      <div class="hero-card">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis nec justo facilisis cursus. Integer pharetra, velit at sagittis malesuada, risus odio varius justo, at dictum lorem erat nec nulla.</p>
+      </div>
+      <div class="hero-links">
+        <a href="faehigkeiten.html">Fähigkeiten</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
     </div>
   </section>
 
-  <footer>
+  <footer class="site-footer">
     &copy; 2025 Leon Simen Zürcher
   </footer>
 </body>
