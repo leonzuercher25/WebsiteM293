@@ -205,7 +205,6 @@ button[type="submit"]:hover {
   background-color: #1565c0;
 }
 
-/* footer */
 .site-footer {
   background-color: #1D3557;
   color: #F1FAEE;
@@ -214,7 +213,6 @@ button[type="submit"]:hover {
   margin-top: auto;
 }
 
-/* Responsiv */
 @media (max-width: 768px) {
   .hero-container,
   .contact-grid {
